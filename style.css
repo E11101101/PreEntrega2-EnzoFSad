@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "Space-Grotesk";
+    src: url(./resources/fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+body{
+    background-color: black;
+}
+header{
+    position: fixed;
+    margin-left: 10px;
+    font-family: "Space-Grotesk";
+}
+.titulo{
+    font-family: "Space-Grotesk";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 380px;
+    color: white;
+    height: 380px;
+}
+.color1{
+    color: white;
+}
+.color2{
+    color: #5956ec;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container a{
+    margin: 20vh 0;
+}
+.container a img{
+    height: 60vh;
+}
+.nav{
+    justify-content: center;
+    margin-top: 50px
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    width: 80vw;
+    justify-content: space-evenly;
+}
+.current{
+    color:#5956ec;
+}
+li a{
+    font-family: "Space-Grotesk";
+    color: white;
+    text-decoration: none;
+}
+.marcas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.marcas a{
+    margin: 20px;
+}
+.marcas a img{
+    width: 29vw;
+}
+.footer{
+    height: 100px;
+    width: 50vw;
+}
+.footer ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
