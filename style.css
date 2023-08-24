@@ -16,13 +16,12 @@ header{
 }
 .titulo{
     font-family: "Space-Grotesk";
+    color: white;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 380px;
-    color: white;
-    height: 380px;
+    width: 100%;
+    font-size: 29vw;
 }
 .color1{
     color: white;
