@@ -35,10 +35,10 @@ body{
     align-items: center;
 }
 .container a{
-    margin: 20% 0;
+    margin: 20vh 0;
 }
 .container a img{
-    height: 60%;
+    height: 60vh;
 }
 .nav{
     justify-content: center;
