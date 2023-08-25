@@ -90,3 +90,6 @@ li a{
 .footer ul li{
     margin: 15px;
 }
+.footer ul li:last-child {
+    margin-left: auto; /* Push the last item to the right */
+}
