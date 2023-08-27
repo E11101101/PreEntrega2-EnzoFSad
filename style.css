@@ -21,7 +21,8 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    font-size: 29vw;
+    height: 450px;
+    font-size: 28vw;
 }
 .color1{
     color: white;
