@@ -14,7 +14,7 @@ body{
     margin: 20px;
     font-family: "Space-Grotesk";
 }
-.titulo{
+.tiworks{
     font-family: "Space-Grotesk";
     color: white;
     display: flex;
@@ -92,5 +92,6 @@ li a{
     margin: 15px;
 }
 .footer ul li:last-child {
-    margin-left: auto; /* Push the last item to the right */
+    margin-left: auto;
 }
+
