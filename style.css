@@ -60,10 +60,12 @@ li a{
 }
 .marcas{
     width: 90%;
-    margin-bottom: 40px;
 }
 .marcas img{
     width: 100%;
+}
+.footer{
+    margin-top: 40px;
 }
 .footer ul{
     display: flex;
