@@ -4,4 +4,4 @@ nombre:  Enzo Fernandez Sad
 comisión: 46830
 
 progreso actual:
-index - works - ivanblogs
+index - works - ivanblogs + estilos de las mismas
