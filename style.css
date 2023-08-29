@@ -8,21 +8,21 @@
 }
 body{
     background-color: black;
+    font-family: "Space-Grotesk";
 }
-header{
+.principal{
     position: fixed;
-    margin-left: 10px;
-    font-family: "Space-Grotesk";
+    margin: 20px;
 }
-.titulo{
-    font-family: "Space-Grotesk";
+.tiworks{
+    color: white;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 380px;
-    color: white;
-    height: 380px;
+    width: 90%;
+    height: 26.5vw;
+    font-size: 26.5vw;
+    margin-top: 12vh;
 }
 .color1{
     color: white;
@@ -43,41 +43,63 @@ header{
 }
 .nav{
     justify-content: center;
-    margin-top: 50px
 }
 .nav ul{
     display: flex;
     list-style: none;
-    width: 80vw;
+    width: 80%;
+    margin-top: 40px;
     justify-content: space-evenly;
+    font-family: "Space-Grotesk";
 }
 .current{
     color:#5956ec;
 }
 li a{
-    font-family: "Space-Grotesk";
     color: white;
     text-decoration: none;
 }
 .marcas{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    width: 90%;
 }
-.marcas a{
-    margin: 20px;
-}
-.marcas a img{
-    width: 29vw;
+.marcas img{
+    width: 100%;
 }
 .footer{
-    height: 100px;
-    width: 50vw;
+    margin-top: 40px;
 }
 .footer ul{
     display: flex;
     list-style-type: none;
-    justify-content: space-between;
     align-items: center;
+    height: 100px;
+    width: 90%;
+    border-top: 2px white solid;
+    border-bottom: 2px white solid;
+    padding: 0;
+}
+.footer ul li{
+    margin: 15px;
+}
+.footer ul li:last-child {
+    margin-left: auto;
+}
+.muestracliente{
+    width: 90%;
+    margin: 0 5% 50px 5%;
+}
+.description{
+    width: 90%;
+    text-align: justify;
+    color: white;
+}
+.lista1{
+    margin-left: 5%;
+    padding: 0;
+    list-style-type: none;
+}
+.lista2{
+    margin-right: 5%;
+    padding: 0;
+    list-style-type: none;
 }
