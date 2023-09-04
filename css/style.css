@@ -11850,6 +11850,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -11893,9 +11894,11 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
 .container a {
   margin: 20vh 0;
 }
+
 .container a img {
   height: 60vh;
 }
@@ -11903,6 +11906,7 @@ body {
 .nav {
   justify-content: center;
 }
+
 .nav ul {
   display: flex;
   list-style: none;
@@ -11924,6 +11928,7 @@ li a {
 .marcas {
   width: 90%;
 }
+
 .marcas img {
   width: 100%;
 }
@@ -11931,6 +11936,7 @@ li a {
 .footer {
   margin-top: 40px;
 }
+
 .footer ul {
   display: flex;
   list-style-type: none;
@@ -11941,9 +11947,11 @@ li a {
   border-bottom: 2px white solid;
   padding: 0;
 }
+
 .footer ul li {
   margin: 15px;
 }
+
 .footer ul li:last-child {
   margin-left: auto;
 }
