@@ -11850,7 +11850,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -11894,11 +11893,9 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
 .container a {
   margin: 20vh 0;
 }
-
 .container a img {
   height: 60vh;
 }
@@ -11906,7 +11903,6 @@ body {
 .nav {
   justify-content: center;
 }
-
 .nav ul {
   display: flex;
   list-style: none;
@@ -11914,6 +11910,7 @@ body {
   margin-top: 40px;
   justify-content: space-evenly;
   font-family: "Space-Grotesk";
+  padding: 0;
 }
 
 .current {
@@ -11928,7 +11925,6 @@ li a {
 .marcas {
   width: 90%;
 }
-
 .marcas img {
   width: 100%;
 }
@@ -11936,22 +11932,19 @@ li a {
 .footer {
   margin-top: 40px;
 }
-
 .footer ul {
   display: flex;
   list-style-type: none;
   align-items: center;
   height: 100px;
   width: 90%;
+  padding: 0;
   border-top: 2px white solid;
   border-bottom: 2px white solid;
-  padding: 0;
 }
-
 .footer ul li {
   margin: 15px;
 }
-
 .footer ul li:last-child {
   margin-left: auto;
 }
@@ -11977,4 +11970,23 @@ li a {
   margin-right: 5%;
   padding: 0;
   list-style-type: none;
+}
+
+@media (max-width: 700px) {
+  .footer {
+    margin-top: 10px;
+  }
+  .footer ul {
+    height: 60px;
+  }
+  .footer ul li {
+    margin: 10px;
+    font-size: smaller;
+  }
+  .nav ul {
+    font-size: smaller;
+  }
+  .tiworks {
+    margin-top: 2vh;
+  }
 }/*# sourceMappingURL=style.css.map */
