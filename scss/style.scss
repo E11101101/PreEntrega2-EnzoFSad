@@ -108,6 +108,14 @@ li a{
     list-style-type: none;
 }
 @media (max-width: 700px){
+    .container{
+        a{
+            margin: 20vh 0;
+            img{
+                height: 30vh;
+            }
+        }
+    }
     .footer{
         margin-top: 10px;
         ul{
