@@ -40,6 +40,10 @@ body{
         margin: 20vh 0;
         img{
             height: 60vh;
+            transition: transform 0.2s;
+        }
+        img:hover{
+            transform: scale(1.05);
         }
     }
 }

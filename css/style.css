@@ -11898,6 +11898,10 @@ body {
 }
 .container a img {
   height: 60vh;
+  transition: transform 0.2s;
+}
+.container a img:hover {
+  transform: scale(1.05);
 }
 
 .nav {
