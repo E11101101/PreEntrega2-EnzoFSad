@@ -11927,6 +11927,10 @@ li a {
 }
 .marcas img {
   width: 100%;
+  transition: transform 0.2s;
+}
+.marcas img:hover {
+  transform: scale(1.05);
 }
 
 .footer {
