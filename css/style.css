@@ -11904,7 +11904,7 @@ textarea.form-control-lg {
     font-size: smaller;
   }
   .tiworks {
-    margin-top: 2vh;
+    margin-top: 0px !important;
   }
 }
 * {
@@ -11934,7 +11934,7 @@ body {
   width: 90%;
   height: 26.5vw;
   font-size: 26.5vw;
-  margin-top: 12vh;
+  margin-top: 55px;
 }
 
 .color1 {
