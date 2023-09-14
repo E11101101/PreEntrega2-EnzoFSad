@@ -42,8 +42,9 @@ body{
     a{
         margin: 20vh 0;
         img{
-            height: 60vh;
             transition: transform 0.2s;
+            max-width: 100%;
+            max-height: 60vh;
         }
         img:hover{
             transform: scale(1.05);
