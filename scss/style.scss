@@ -1,4 +1,7 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import './sections/nav';
+@import './sections/footer';
+@import './sections/mediaqueries';
 
 *{
     margin: 0;
@@ -47,19 +50,6 @@ body{
         }
     }
 }
-
-.nav{
-    justify-content: center;
-    ul{
-        display: flex;
-        list-style: none;
-        width: 80%;
-        margin-top: 40px;
-        justify-content: space-evenly;
-        font-family: "Space-Grotesk";
-        padding: 0;
-    }
-}
 .current{
     color:#5956ec;
 }
@@ -77,25 +67,6 @@ li a{
         transform: scale(1.05);
     }
 } 
-.footer{
-    margin-top: 40px;
-    ul{
-        display: flex;
-        list-style-type: none;
-        align-items: center;
-        height: 100px;
-        width: 90%;
-        padding: 0;
-        border-top: 2px white solid;
-        border-bottom: 2px white solid;
-        li{
-            margin: 15px;
-        }
-        li:last-child {
-            margin-left: auto;
-        }
-    }
-}
 .muestracliente{
     width: 90%;
     margin: 0 5% 50px 5%;
@@ -114,32 +85,4 @@ li a{
     margin-right: 5%;
     padding: 0;
     list-style-type: none;
-}
-@media (max-width: 700px){
-    .container{
-        a{
-            margin: 20vh 0;
-            img{
-                height: 30vh;
-            }
-        }
-    }
-    .footer{
-        margin-top: 10px;
-        ul{
-            height: 60px;
-            li{
-                margin: 6px;
-                font-size: smaller;
-            }
-        }
-    }
-    .nav{
-        ul{
-            font-size: smaller;
-        }
-    }
-    .tiworks{
-        margin-top: 2vh;
-    }
 }

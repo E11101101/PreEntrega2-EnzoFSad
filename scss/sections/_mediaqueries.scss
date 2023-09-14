@@ -1,0 +1,28 @@
+@media (max-width: 700px){
+    .container{
+        a{
+            margin: 20vh 0;
+            img{
+                height: 30vh;
+            }
+        }
+    }
+    .footer{
+        margin-top: 10px;
+        ul{
+            height: 60px;
+            li{
+                margin: 6px;
+                font-size: smaller;
+            }
+        }
+    }
+    .nav{
+        ul{
+            font-size: smaller;
+        }
+    }
+    .tiworks{
+        margin-top: 2vh;
+    }
+}

@@ -1,0 +1,19 @@
+.footer{
+    margin-top: 40px;
+    ul{
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        height: 100px;
+        width: 90%;
+        padding: 0;
+        border-top: 2px white solid;
+        border-bottom: 2px white solid;
+        li{
+            margin: 15px;
+        }
+        li:last-child {
+            margin-left: auto;
+        }
+    }
+}
