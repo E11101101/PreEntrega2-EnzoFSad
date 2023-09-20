@@ -38,6 +38,14 @@ body{
     height: 26.5vw;
     font-size: 18vw;
 }
+.ticontact{
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 20vw;
+    font-size: 12vw;
+}
 .color1{
     color: white;
 }
@@ -95,4 +103,7 @@ li a{
     margin-right: 5%;
     padding: 0;
     list-style-type: none;
+}
+.icon{
+    color: black;
 }
