@@ -12029,4 +12029,12 @@ li a {
 
 .icon {
   color: black;
+}
+
+.contact {
+  min-height: 40vh;
+}
+
+.message {
+  min-height: 126px !important;
 }/*# sourceMappingURL=style.css.map */
